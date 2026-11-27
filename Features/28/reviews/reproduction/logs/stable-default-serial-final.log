@@ -1,0 +1,9 @@
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+ok 1 - Serial control: STABLE default sees preceding committed row
+1..1
+ok
+All tests successful.
+Files=1, Tests=1,  2 wallclock secs ( 0.01 usr  0.01 sys +  1.14 cusr  0.69 csys =  1.85 CPU)
+Result: PASS

@@ -1,0 +1,10 @@
+# REPRO numeric-key: publisher UPDATE 1.0->2 then INSERT 1.00 succeeds; subscriber disables on unique conflict
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+ok 1 - BUG reproduced: numeric equality mismatch raises parallel-only unique error
+1..1
+ok
+All tests successful.
+Files=1, Tests=1,  3 wallclock secs ( 0.01 usr  0.01 sys +  1.07 cusr  0.61 csys =  1.70 CPU)
+Result: PASS

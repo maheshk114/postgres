@@ -1,0 +1,10 @@
+# CHECK partition-truncate: expected=99|v|m, actual=99|v|m
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+ok 1 - Refutation probe: TRUNCATE then UPDATE on reordered leaf
+1..1
+ok
+All tests successful.
+Files=1, Tests=1,  2 wallclock secs ( 0.02 usr  0.00 sys +  1.07 cusr  0.53 csys =  1.62 CPU)
+Result: PASS

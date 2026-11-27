@@ -1,0 +1,31 @@
+make: Entering directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription'
+make -C ../../../src/backend generated-headers
+make[1]: Entering directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend'
+make -C ../include/catalog generated-headers
+make[2]: Entering directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/include/catalog'
+make[2]: Nothing to be done for 'generated-headers'.
+make[2]: Leaving directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/include/catalog'
+make -C nodes generated-header-symlinks
+make[2]: Entering directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend/nodes'
+make[2]: Nothing to be done for 'generated-header-symlinks'.
+make[2]: Leaving directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend/nodes'
+make -C utils generated-header-symlinks
+make[2]: Entering directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend/utils'
+make -C adt jsonpath_gram.h
+make[3]: Entering directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend/utils/adt'
+make[3]: 'jsonpath_gram.h' is up to date.
+make[3]: Leaving directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend/utils/adt'
+make[2]: Leaving directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend/utils'
+make[1]: Leaving directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/backend'
+rm -rf '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install
+/usr/bin/mkdir -p '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install/log
+make -C '../../..' DESTDIR='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install install >'/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install/log/install.log 2>&1
+make -j1  checkprep >>'/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install/log/install.log 2>&1
+PATH="/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/tmp_install/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-install/bin:/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription:$PATH" LD_LIBRARY_PATH="/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/tmp_install/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-install/lib" INITDB_TEMPLATE='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install/initdb-template  initdb --auth trust --no-sync --no-instructions --lc-messages=C --no-clean '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install/initdb-template >>'/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install/log/initdb-template.log 2>&1
+echo "# +++ tap check in src/test/subscription +++" && rm -rf '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription'/tmp_check && /usr/bin/mkdir -p '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription'/tmp_check && cd /home/maheshbehera/worktrees/postgresql-v28-review/src/test/subscription && TESTLOGDIR='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription/tmp_check/log' TESTDATADIR='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription/tmp_check' PATH="/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/tmp_install/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-install/bin:/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription:$PATH" LD_LIBRARY_PATH="/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/tmp_install/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-install/lib" INITDB_TEMPLATE='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build'/tmp_install/initdb-template  PGPORT='65432' top_builddir='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription/../../..' PG_REGRESS='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription/../../../src/test/regress/pg_regress' share_contrib_dir='/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/tmp_install/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-install/share/postgresql/' /usr/bin/prove -I /home/maheshbehera/worktrees/postgresql-v28-review/src/test/perl/ -I /home/maheshbehera/worktrees/postgresql-v28-review/src/test/subscription  t/050_parallel_apply.pl
+# +++ tap check in src/test/subscription +++
+t/050_parallel_apply.pl .. ok
+All tests successful.
+Files=1, Tests=56,  7 wallclock secs ( 0.03 usr  0.01 sys +  1.03 cusr  1.33 csys =  2.40 CPU)
+Result: PASS
+make: Leaving directory '/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-build/src/test/subscription'

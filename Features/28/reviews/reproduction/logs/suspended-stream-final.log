@@ -1,0 +1,10 @@
+# REPRO suspended-stream: publisher expected=v2, subscriber actual=v1
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+ok 1 - BUG reproduced: suspended streamed replay loses subsequent UPDATE
+1..1
+ok
+All tests successful.
+Files=1, Tests=1,  3 wallclock secs ( 0.01 usr  0.00 sys +  1.16 cusr  0.57 csys =  1.74 CPU)
+Result: PASS

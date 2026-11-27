@@ -1,0 +1,933 @@
+[
+  {
+    "assignment": "comprehensive-astra",
+    "tools": {
+      "view": 161,
+      "rg": 68
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "gpt-6.2-astra"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-1-astra.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "1",
+        "model_token": "astra",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/comprehensive-astra/response.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/comprehensive-astra/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "issues_found",
+        "reviewer_model": "gpt-6.2-astra"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=gpt-6.2-astra",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T05:46:11.886222+00:00",
+      "status": "finalized",
+      "errors": [],
+      "outcome": "issues_found",
+      "reviewerModel": "gpt-6.2-astra",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T06:11:52.876890+00:00",
+      "durationSeconds": 1540.991,
+      "fileHashes": {
+        "input_file": "d15d003b616cbc6bab203c0dc5ded68f9cfcfb778bc617109d3bd5d8b31a6fc9",
+        "review_file": "4aec5faef24c82477b2347da3767f574bc9e3386f86fd47b61c3e1e0b6b5d6c9"
+      }
+    }
+  },
+  {
+    "assignment": "comprehensive-grok",
+    "tools": {
+      "grep": 119,
+      "glob": 4,
+      "view": 89
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "grok-4.7"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-1-grok.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "1",
+        "model_token": "grok",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/comprehensive-grok/response.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/comprehensive-grok/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "issues_found",
+        "reviewer_model": "grok-4.7"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=grok-4.7",
+        "--reasoning-effort=xhigh"
+      ],
+      "startedAt": "2026-11-27T05:46:12.062688+00:00",
+      "status": "finalized",
+      "errors": [],
+      "outcome": "issues_found",
+      "reviewerModel": "grok-4.7",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T06:17:06.511157+00:00",
+      "durationSeconds": 1854.448,
+      "fileHashes": {
+        "input_file": "de79ced7f3406a82c20821e2ba7a653f6dcd958900ce4c279d897e479bd9a9c8",
+        "review_file": "9ea30f6a026f46b9000995c0fd8e066792915980d22d7e0a066e08383bdc2696"
+      }
+    }
+  },
+  {
+    "assignment": "comprehensive-hydrogen",
+    "tools": {
+      "view": 71,
+      "grep": 29
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "gemini-4-hydrogen"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-1-hydrogen.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "1",
+        "model_token": "hydrogen",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/comprehensive-hydrogen/response.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/comprehensive-hydrogen/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "issues_found",
+        "reviewer_model": "gemini-4-hydrogen"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=gemini-4-hydrogen",
+        "--reasoning-effort=xhigh"
+      ],
+      "startedAt": "2026-11-27T05:47:19.267173+00:00",
+      "status": "finalized",
+      "errors": [],
+      "outcome": "issues_found",
+      "reviewerModel": "gemini-4-hydrogen",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T06:09:18.025366+00:00",
+      "durationSeconds": 1318.758,
+      "fileHashes": {
+        "input_file": "c7b8ff39fd4ee8fd330066d1eb11068b7fe2b063ca1b82f93154eb408e9537fa",
+        "review_file": "b813e8864965a08fa498617eea2363a449d4977a3585cb144ca54a02c61d0094"
+      }
+    }
+  },
+  {
+    "assignment": "lens-1",
+    "tools": {
+      "grep": 26,
+      "view": 106
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-1-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "1",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-1/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-1/input.md",
+        "decision_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-1/decision.md",
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": null
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T05:46:12.254859+00:00",
+      "status": "finalized",
+      "errors": [
+        "Reviewer interrupted",
+        "Reviewer did not launch or was interrupted before an exit status was available"
+      ],
+      "outcome": "failed",
+      "reviewerModel": null,
+      "reviewExitCode": null,
+      "finishedAt": "2026-11-27T06:31:07.575282+00:00",
+      "durationSeconds": 2695.32,
+      "fileHashes": {
+        "input_file": "4ff13b20519030cf98c10f521c36299de105f6b8928ab12f9027a7f4dda07f88",
+        "review_file": "c6acabf2fff073b426340a1ec0ca5e6474c931c91d114ff378db89d8f40076e5",
+        "decision_file": "d3932291cb0a2f3b6e72452b82559796094a45fd9aa2b77bc7b608318186d137"
+      }
+    }
+  },
+  {
+    "assignment": "lens-1-recovery",
+    "tools": {
+      "grep": 5,
+      "view": 15
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-2-review-1-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "2",
+        "tier": "High",
+        "round": "1",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-1-recovery/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-1-recovery/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": "claude-opus-5.5"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T06:32:38.182425+00:00",
+      "status": "finalized",
+      "errors": [
+        "Ambiguous public review output: repeated Review Summary or Evidence Checklist; preserve all findings and retry with a fresh independent review attempt"
+      ],
+      "outcome": "failed",
+      "reviewerModel": "claude-opus-5.5",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T07:10:06.380816+00:00",
+      "durationSeconds": 2248.198,
+      "fileHashes": {
+        "input_file": "19f130b914e4a23309826b80bab7acc674774072295002a05b560f399179fe10",
+        "review_file": "44d9cfbb3fc714121ac97163ad28ed31226c1e0f9a0dd428accbd7a7331bdd01"
+      }
+    }
+  },
+  {
+    "assignment": "lens-2",
+    "tools": {
+      "grep": 42,
+      "view": 119
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-2-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "2",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-2/response.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-2/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "issues_found",
+        "reviewer_model": "claude-opus-5.5"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T05:46:11.688175+00:00",
+      "status": "finalized",
+      "errors": [],
+      "outcome": "issues_found",
+      "reviewerModel": "claude-opus-5.5",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T06:23:31.862990+00:00",
+      "durationSeconds": 2240.175,
+      "fileHashes": {
+        "input_file": "b620d9a504de3d39779c191ab912b69cf8d524d739ec3beac4cfbcb7cbc3cb6f",
+        "review_file": "423fc2c9132298cf4211998a7830926626f90a535db4870761525c359c2c3592"
+      }
+    }
+  },
+  {
+    "assignment": "lens-3",
+    "tools": {
+      "grep": 40,
+      "view": 121
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-3-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "3",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-3/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-3/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": null
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T05:46:12.391800+00:00",
+      "status": "finalized",
+      "errors": [
+        "Reviewer interrupted",
+        "Reviewer did not launch or was interrupted before an exit status was available"
+      ],
+      "outcome": "failed",
+      "reviewerModel": null,
+      "reviewExitCode": null,
+      "finishedAt": "2026-11-27T06:31:07.574832+00:00",
+      "durationSeconds": 2695.183,
+      "fileHashes": {
+        "input_file": "4ced9b088933ad024391f7d3e69ef2c447018dea19ec35787c65f6b7c723fcd5",
+        "review_file": "c6acabf2fff073b426340a1ec0ca5e6474c931c91d114ff378db89d8f40076e5"
+      }
+    }
+  },
+  {
+    "assignment": "lens-3-recovery",
+    "tools": {
+      "grep": 7,
+      "view": 13
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-2-review-3-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "2",
+        "tier": "High",
+        "round": "3",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-3-recovery/response.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-3-recovery/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "issues_found",
+        "reviewer_model": "claude-opus-5.5"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T06:32:38.182743+00:00",
+      "status": "finalized",
+      "errors": [],
+      "outcome": "issues_found",
+      "reviewerModel": "claude-opus-5.5",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T06:58:42.630791+00:00",
+      "durationSeconds": 1564.448,
+      "fileHashes": {
+        "input_file": "323f9a9be4152bab5acb47af0f7efe9e6270c8b9037221e003ad4f82738332db",
+        "review_file": "2f7987d4b5cd7292c1e3211a0b752fe6a27c40d3d2de5dee4e3ed50f700aa5e3"
+      }
+    }
+  },
+  {
+    "assignment": "lens-4",
+    "tools": {
+      "grep": 38,
+      "view": 108
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-4-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "4",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-4/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-4/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": null
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T05:46:11.670870+00:00",
+      "status": "finalized",
+      "errors": [
+        "Reviewer interrupted",
+        "Reviewer did not launch or was interrupted before an exit status was available"
+      ],
+      "outcome": "failed",
+      "reviewerModel": null,
+      "reviewExitCode": null,
+      "finishedAt": "2026-11-27T06:31:07.577633+00:00",
+      "durationSeconds": 2695.907,
+      "fileHashes": {
+        "input_file": "7080bc75cec861b8e94d7f1c6789c01b49e1023d752566055a69305f15043783",
+        "review_file": "c6acabf2fff073b426340a1ec0ca5e6474c931c91d114ff378db89d8f40076e5"
+      }
+    }
+  },
+  {
+    "assignment": "lens-4-recovery",
+    "tools": {},
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-2-review-4-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "2",
+        "tier": "High",
+        "round": "4",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-4-recovery/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-4-recovery/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": "claude-opus-5.5"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T06:32:38.182325+00:00",
+      "status": "finalized",
+      "errors": [
+        "Public review output appears incomplete or truncated: no complete Review Summary and Evidence Checklist were found across the retained public assistant messages; inspect events.jsonl and retry with a fresh independent review attempt",
+        "Missing or ambiguous Review Summary"
+      ],
+      "outcome": "failed",
+      "reviewerModel": "claude-opus-5.5",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T06:41:47.182191+00:00",
+      "durationSeconds": 549.0,
+      "fileHashes": {
+        "input_file": "6ebfe82a676d1c535fe221e695b617c3abb466246d564b4790660ce07780b788",
+        "review_file": "2f7272b8f4be4aefd628ea59f4b7fa5e9685479e71ed338bfad0c8ea4b3cf3aa"
+      }
+    }
+  },
+  {
+    "assignment": "lens-5",
+    "tools": {
+      "view": 104,
+      "grep": 38
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-5-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "5",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-5/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-5/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": null
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T05:46:11.669115+00:00",
+      "status": "finalized",
+      "errors": [
+        "Reviewer interrupted",
+        "Reviewer did not launch or was interrupted before an exit status was available"
+      ],
+      "outcome": "failed",
+      "reviewerModel": null,
+      "reviewExitCode": null,
+      "finishedAt": "2026-11-27T06:31:07.578499+00:00",
+      "durationSeconds": 2695.909,
+      "fileHashes": {
+        "input_file": "02e7e4775144cb47e891e8f7143ad45a97347374540db41ece83c7d8d3f74fdf",
+        "review_file": "c6acabf2fff073b426340a1ec0ca5e6474c931c91d114ff378db89d8f40076e5"
+      }
+    }
+  },
+  {
+    "assignment": "lens-5-recovery",
+    "tools": {
+      "grep": 8,
+      "view": 12
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-2-review-5-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "2",
+        "tier": "High",
+        "round": "5",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-5-recovery/response.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-5-recovery/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "issues_found",
+        "reviewer_model": "claude-opus-5.5"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T06:32:38.182214+00:00",
+      "status": "finalized",
+      "errors": [],
+      "outcome": "issues_found",
+      "reviewerModel": "claude-opus-5.5",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T07:02:06.381909+00:00",
+      "durationSeconds": 1768.2,
+      "fileHashes": {
+        "input_file": "7c15e9f3bc5dc7e0fcdb85b235abb42c78ef863ed27afe3993ac4d09a0873510",
+        "review_file": "2673c4580faadaf42aea215708f7a0fe5974973b6ba8f9cea7c78ff808a028f9"
+      }
+    }
+  },
+  {
+    "assignment": "lens-6",
+    "tools": {
+      "grep": 6,
+      "view": 56
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-1-review-6-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "1",
+        "tier": "High",
+        "round": "6",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-6/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-6/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": null
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T05:46:13.061265+00:00",
+      "status": "finalized",
+      "errors": [
+        "Reviewer interrupted",
+        "Reviewer did not launch or was interrupted before an exit status was available"
+      ],
+      "outcome": "failed",
+      "reviewerModel": null,
+      "reviewExitCode": null,
+      "finishedAt": "2026-11-27T06:31:07.578497+00:00",
+      "durationSeconds": 2694.517,
+      "fileHashes": {
+        "input_file": "cc2274b049fe54cd54ec560fffec2329a83aa03bae97f18d766d3be3b587edf5",
+        "review_file": "c6acabf2fff073b426340a1ec0ca5e6474c931c91d114ff378db89d8f40076e5"
+      }
+    }
+  },
+  {
+    "assignment": "lens-6-recovery",
+    "tools": {
+      "grep": 19,
+      "view": 24
+    },
+    "possibleSiblingEvidenceReads": [],
+    "observedAssistantModels": [
+      "claude-opus-5.5"
+    ],
+    "receipt": {
+      "schemaVersion": 1,
+      "artifactPath": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews/task-unknown-attempt-1-stage-attempt-2-review-6-opus.md",
+      "backend": "bash",
+      "shell": "/usr/bin/bash",
+      "repoRoot": "/home/maheshbehera/worktrees/postgresql-v28-review",
+      "writerOptions": {
+        "task_id": "unknown",
+        "task_name": "review",
+        "output_dir": "/home/maheshbehera/worktrees/postgresql-v28-review/Features/28/reviews",
+        "review_attempt": "1",
+        "stage_attempt": "2",
+        "tier": "High",
+        "round": "6",
+        "model_token": "opus",
+        "review_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-6-recovery/failure.md",
+        "input_file": "/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-runs/lens-6-recovery/input.md",
+        "decision_file": null,
+        "execution_backend": "copilot-cli",
+        "outcome": "failed",
+        "reviewer_model": "claude-opus-5.5"
+      },
+      "cliCommand": [
+        "/home/maheshbehera/.local/bin/copilot",
+        "--output-format=json",
+        "--stream=off",
+        "--silent",
+        "--available-tools",
+        "view",
+        "rg",
+        "glob",
+        "--allow-tool",
+        "view",
+        "rg",
+        "glob",
+        "--no-ask-user",
+        "--disable-builtin-mcps",
+        "--no-auto-update",
+        "--model=claude-opus-5.5",
+        "--reasoning-effort=max"
+      ],
+      "startedAt": "2026-11-27T06:32:39.532200+00:00",
+      "status": "finalized",
+      "errors": [
+        "Ambiguous public review output: repeated Review Summary or Evidence Checklist; preserve all findings and retry with a fresh independent review attempt"
+      ],
+      "outcome": "failed",
+      "reviewerModel": "claude-opus-5.5",
+      "reviewExitCode": 0,
+      "finishedAt": "2026-11-27T06:57:54.241417+00:00",
+      "durationSeconds": 1514.709,
+      "fileHashes": {
+        "input_file": "ca3519411b8d8c6524bf609cce91ff5550719de3a78d6fe603089181a3245a3c",
+        "review_file": "7a305025527443788a039f3e73cf6933d3e58fe9cc22efaf96dbb61264a64948"
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+# REPRO stable-default: serial expected=1, parallel actual=0
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+ok 1 - BUG reproduced: STABLE default retains pre-wait snapshot
+1..1
+ok
+All tests successful.
+Files=1, Tests=1,  3 wallclock secs ( 0.02 usr  0.00 sys +  1.08 cusr  0.72 csys =  1.82 CPU)
+Result: PASS

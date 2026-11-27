@@ -1,0 +1,10 @@
+# REPRO hidden-trigger-write: publisher expected=2, subscriber actual=1
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+ok 1 - BUG reproduced: later UPDATE overtakes hidden trigger INSERT
+1..1
+ok
+All tests successful.
+Files=1, Tests=1,  2 wallclock secs ( 0.01 usr  0.01 sys +  1.16 cusr  0.71 csys =  1.89 CPU)
+Result: PASS

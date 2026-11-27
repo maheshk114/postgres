@@ -1,0 +1,39 @@
+# REPRO stream-abort-origin: publisher target(1) committed, subscriber count after restart=0
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+# connect output:
+# {
+#   'stderr' => 'background_psql: ready
+# ',
+#   'stdout' => 'background_psql: ready
+# '
+# }
+# issuing query 1 via background psql: 
+#         BEGIN;
+#         INSERT INTO bulk SELECT i, repeat('s',500) FROM generate_series(1,10000) i;
+#     
+# results query 1:
+# {
+#   'stderr' => 'background_psql: QUERY_SEPARATOR 1:
+# ',
+#   'stdout' => 'background_psql: QUERY_SEPARATOR 1:
+# '
+# }
+ok 1 - Streamed worker has applied changes before abort
+# issuing query 2 via background psql: ROLLBACK
+# results query 2:
+# {
+#   'stderr' => 'background_psql: QUERY_SEPARATOR 2:
+# ',
+#   'stdout' => 'background_psql: QUERY_SEPARATOR 2:
+# '
+# }
+ok 2 - Origin advanced beyond held ordinary transaction
+ok 3 - Apply group stopped while predecessor was uncommitted
+ok 4 - BUG reproduced: streamed abort advances restart past uncommitted predecessor
+1..4
+ok
+All tests successful.
+Files=1, Tests=4,  3 wallclock secs ( 0.01 usr  0.00 sys +  1.11 cusr  0.58 csys =  1.70 CPU)
+Result: PASS

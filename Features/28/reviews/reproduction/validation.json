@@ -1,0 +1,25 @@
+{
+  "base": "2af6dd3370677d8b06cf2a9eb62f69ba11e12cab",
+  "diffSha256": "f55b96e2ce17483b2bca7b123f44a2b80967f96a54794bad929f47f89fd646d6",
+  "configure": "PASS: --enable-cassert --enable-injection-points --enable-tap-tests --without-icu --without-readline",
+  "build": "PASS: make -j4, make install, injection_points install",
+  "tests": [
+    {"command": "make -C src/test/subscription check PROVE_TESTS=t/050_parallel_apply.pl", "files": 1, "assertions": 56, "result": "PASS", "log": "v28-build/parallel-apply-tap.log"},
+    {"command": "make -C src/test/subscription check 'PROVE_TESTS=t/001_rep_changes.pl t/010_truncate.pl t/015_stream.pl t/026_stats.pl t/027_nosuperuser.pl t/032_subscribe_use_index.pl'", "files": 6, "assertions": 117, "result": "PASS", "log": "v28-build/changed-subscription-tap.log"}
+  ],
+  "runtimeFindings": [
+    {"id": "V28-01", "case": "stream-abort-origin", "attempt": "v6", "result": "REPRODUCED", "impact": "Stream abort advances origin past unfinished ordinary transaction; disabling and re-enabling apply permanently skips its committed publisher row.", "source": "Astra issue 1"},
+    {"id": "V28-02", "case": "suspended-stream", "attempt": "v5", "result": "REPRODUCED", "impact": "Stream replay during dependency-memory suspension loses an UPDATE; publisher v2, subscriber v1.", "source": "Astra issue 5"},
+    {"id": "V28-03", "case": "stable-default", "attempt": "v3", "result": "REPRODUCED", "impact": "Subscriber STABLE default uses pre-wait snapshot; count 0 instead of 1.", "source": "Astra issue 8"},
+    {"id": "V28-04", "case": "fk-toast", "attempt": "v3", "result": "REPRODUCED", "impact": "Unchanged external TOAST FK outside replica identity triggers apply-leader assertion.", "source": "Astra issue 14"},
+    {"id": "V28-05", "case": "numeric-key", "attempt": "v3", "result": "REPRODUCED", "impact": "Numerically equal differently encoded keys miss dependency; UPDATE 1.0 to 2 then INSERT 1.00 causes subscriber unique conflict.", "source": "Astra issue 12"},
+    {"id": "V28-06", "case": "one-sided-fk", "attempt": "v3", "result": "REPRODUCED", "impact": "Child-side replica-enabled FK triggers miss parent insertion dependency when parent triggers remain origin-only.", "source": "Astra issue 13"},
+    {"id": "V28-07", "case": "hidden-trigger-write", "attempt": "v8", "result": "REPRODUCED", "impact": "Later UPDATE overtakes an earlier trigger's unpublished INSERT; publisher value 2, subscriber value 1, with identical schemas.", "source": "Astra issue 9"}
+  ],
+  "serialControls": {"attempt": "final", "cases": ["stable-default-serial", "numeric-key-serial", "one-sided-fk-serial", "hidden-trigger-write-serial"], "result": "PASS with expected serial values"},
+  "finalHarnessRun": {"attempt": "final", "scenarios": 12, "assertions": 15, "outcome": "Seven defects reproduced, four serial controls correct, one partition corruption probe not reproduced."},
+  "refutationProbes": [
+    {"case": "partition-truncate", "attempt": "v7", "result": "NOT REPRODUCED", "details": "TRUNCATE, INSERT, UPDATE through reordered leaf gives correct 99|v|m. This rejects that concrete persistent-map-corruption schedule, not separate dropped-column/OOB hypotheses."}
+  ],
+  "limitations": "PASS in bug-reproduction tests means the defect was observed, not fixed. All other reviewer hypotheses remain unconfirmed unless separately adjudicated. Assertion-enabled build; no non-assert build validation. No product code changed."
+}

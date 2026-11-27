@@ -1,0 +1,62 @@
+{
+  "policy": "Only REPRODUCED entries are independently demonstrated product defects. UNCONFIRMED entries retain reviewer hypotheses, not additional verified findings. Generalized variants of a reproduced key or safety bug still require validation.",
+  "confirmed": {
+    "V28-01": "Stream abort advances restart origin past an unfinished ordinary transaction",
+    "V28-02": "Stream replay during memory suspension loses an update",
+    "V28-03": "Unsafe STABLE default retains a stale pre-wait snapshot",
+    "V28-04": "Unchanged external TOAST FK value trips an assertion",
+    "V28-05": "Bytewise numeric key equality misses an ordering dependency",
+    "V28-06": "One-sided replica-enabled FK trigger misses its producer dependency",
+    "V28-07": "Later update overtakes a hidden trigger insert"
+  },
+  "unconfirmedGroups": {
+    "C01": "Flush feedback skips an undurable prefix using a no-WAL worker's stale local LSN",
+    "C02": "Safety classification evaluates irrelevant defaults or uses the wrong role",
+    "C03": "PREPARE publishes FINISHED before unlocking a reusable shared XID",
+    "C04": "Leader metadata acquisition deadlocks with the worker it is feeding",
+    "C05": "Keyless table changes leave no participation footprint for TRUNCATE",
+    "C06": "Streamed actions bypass user-function safety",
+    "C07": "Partition-root defaults run before leaf safety checks",
+    "C08": "Deferrable constraints are incorrectly assumed to be commit-time checks",
+    "C09": "Exclusion, temporal, collation and cross-type semantics are not byte equality",
+    "C10": "FK peer attribute maps or locks are stale during metadata discovery",
+    "C11": "TRUNCATE leaf map construction can index incompatible physical layouts",
+    "C12": "Metadata-only publisher leaf is validated as a subscriber target",
+    "C13": "Function changes do not invalidate relation safety classification",
+    "C14": "Safety classifier misses trigger WHEN or implicit defaults",
+    "C15": "Retained worker pools starve synchronization or ignore lowered limits",
+    "C16": "Streamed dependency-control timeout bypasses spill fallback",
+    "C17": "Public dispatcher accepts a worker-private message",
+    "C18": "Serial subscriptions pay unnecessary dependency work",
+    "C19": "Published tests omit or fail to force important schedules",
+    "C20": "Child TRUNCATE fails to order a later referenced-table operation",
+    "C21": "Non-default transaction isolation retains an early transaction snapshot",
+    "C22": "Concurrent subscription SKIP reset leaves stale skip state",
+    "C23": "Remote relation refresh can leave a stale partition dependency map",
+    "C24": "Documentation does not explain ordinary transaction parallelism",
+    "C25": "Subscriber debug immediate-stream mode breaks ordinary dispatch",
+    "C26": "Layering, naming, comments and code hygiene observations",
+    "C27": "Dependency wait uses one-millisecond polling without a wait event",
+    "C28": "Raw hash-to-flush-mapping pointer lifetime hardening hypothesis",
+    "C29": "Repeated impossible worker launches create avoidable DSM allocation and warnings",
+    "C30": "Completed dependency entries or FK relationships are repeatedly rescanned",
+    "C31": "FK discovery scans the full constraint catalog per partition",
+    "C32": "Dependency diagnostics and memory-limit documentation need clarification"
+  },
+  "reportMappings": {
+    "stage1-astra-comprehensive": {"1":["V28-01"],"2":["C01"],"3":["C02"],"4":["C03"],"5":["V28-02"],"6":["C04"],"7":["C05"],"8":["V28-03"],"9":["V28-07"],"10":["C06"],"11":["C07"],"12":["V28-05","C09"],"13":["V28-06"],"14":["V28-04"],"15":["C08"],"16":["C09"],"17":["C10"],"18":["C11"],"19":["C12"],"20":["C13"],"21":["C14"],"22":["C15"],"23":["C16"],"24":["C17"],"25":["C18"],"26":["C19"]},
+    "stage1-hydrogen-comprehensive": {"1":["V28-02"],"2":["V28-05","C09"],"3":["V28-06"],"4":["C20"],"5":["V28-04"],"6":["C08"],"7":["C21"],"8":["C07","V28-07"],"9":["C22"],"10":["C10","C23"],"11":["C16"],"12":["C15","C24","C19"]},
+    "stage1-grok-comprehensive": {"1":["R01","C11"],"2":["C14"]},
+    "stage1-opus-lens2": {"1":["C01"],"2":["V28-02"],"3":["V28-05","C09"],"4":["C06"],"5":["V28-06"],"6":["C16"],"7":["C25"],"8":["C24"],"9":["C26"],"10":["C27"],"11":["C28"],"12":["C26"]},
+    "stage2-opus-lens3": {"1":["C01"],"2":["V28-02"],"3":["C25"],"4":["C15"]},
+    "stage2-opus-lens5": {"1":["C01"],"2":["C19"],"3":["C19"],"4":["C15","C19"],"5":["C19"],"6":["C19"],"7":["C19"],"8":["C19"]},
+    "stage2-opus-lens1-invalid-output-not-signoff": {"1":["C01"],"2":["V28-02"],"3":["C03"],"4":["C11"]},
+    "stage2-opus-lens6-invalid-output-not-signoff": {"1":["C01"],"2":["C29","C15"],"3":["C30"],"4":["C31"],"5":["C24"],"6":["C30"],"7":["C32"],"8":["C27"],"9":["C32"],"10":["C26"]}
+  },
+  "refutationNotes": {
+    "R01": "A cold TRUNCATE followed by INSERT and UPDATE through a reordered leaf produced the correct 99|v|m. Persistent corruption in this concrete schedule was not reproduced. Separate dropped-column or immediate OOB hypotheses remain C11.",
+    "numericDeleteVariant": "DELETE WHERE numeric_literal does not itself change the stored tuple's wire representation. The demonstrated case instead holds UPDATE 1.0 to 2 before execution and inserts 1.00 in the next transaction.",
+    "triggerEnableSyntax": "ENABLE ALWAYS TRIGGER ALL is not valid syntax. The harness enables actual named FK triggers using a catalog-driven DO block.",
+    "scope": "No source fix, sanitizer proof, production-build assertion behavior, or benchmark is claimed. No failed reviewer attempt counts as independent coverage."
+  }
+}

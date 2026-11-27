@@ -1,0 +1,10 @@
+# REPRO fk-toast: updating unrelated v with unchanged external FK column trips leader assertion
+/home/maheshbehera/.copilot/session-state/04d33a31-8bed-414a-b2dc-30316c260b9c/files/v28-repro.pl .. 
+# initializing database system by running initdb
+# initializing database system by running initdb
+ok 1 - BUG reproduced: unchanged non-RI TOAST FK value crashes assertion-enabled apply
+1..1
+ok
+All tests successful.
+Files=1, Tests=1,  3 wallclock secs ( 0.02 usr  0.00 sys +  1.06 cusr  0.59 csys =  1.67 CPU)
+Result: PASS

@@ -1,0 +1,828 @@
+{
+  "fk-toast-final": [
+    {
+      "line": 115,
+      "text": "TRAP: failed Assert(\"original_data->colstatus[attidx] != LOGICALREP_COLUMN_UNCHANGED || original_data->colvalues[attidx].len > 0\"), File: \"/home/maheshbehera/worktrees/postgresql-v28-review/src/backend/replication/logical/worker.c\", Line: 1279, PID: 59002"
+    }
+  ],
+  "hidden-trigger-write-final": [
+    {
+      "line": 120,
+      "text": "2026-11-27 06:48:58.319 UTC logical replication parallel worker[60707] LOG:  conflict detected on relation \"public.b\": conflict=update_missing"
+    }
+  ],
+  "hidden-trigger-write-serial-final": [],
+  "numeric-key-final": [
+    {
+      "line": 91,
+      "text": "2026-11-27 06:44:49.964 UTC logical replication parallel worker[59153] ERROR:  conflict detected on relation \"public.target\": conflict=insert_exists"
+    }
+  ],
+  "numeric-key-serial-final": [],
+  "one-sided-fk-final": [
+    {
+      "line": 121,
+      "text": "2026-11-27 06:44:49.966 UTC logical replication parallel worker[59081] ERROR:  insert or update on table \"child\" violates foreign key constraint \"child_p_fkey\""
+    }
+  ],
+  "one-sided-fk-serial-final": [],
+  "partition-truncate-final": [],
+  "stable-default-final": [],
+  "stable-default-serial-final": [],
+  "stream-abort-origin-final": [
+    {
+      "line": 113,
+      "text": "2026-11-27 06:44:52.421 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 115,
+      "text": "2026-11-27 06:44:52.422 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 117,
+      "text": "2026-11-27 06:44:52.423 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 119,
+      "text": "2026-11-27 06:44:52.424 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 121,
+      "text": "2026-11-27 06:44:52.424 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 123,
+      "text": "2026-11-27 06:44:52.425 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 125,
+      "text": "2026-11-27 06:44:52.426 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 127,
+      "text": "2026-11-27 06:44:52.427 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 129,
+      "text": "2026-11-27 06:44:52.428 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 131,
+      "text": "2026-11-27 06:44:52.428 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 133,
+      "text": "2026-11-27 06:44:52.429 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 135,
+      "text": "2026-11-27 06:44:52.430 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 137,
+      "text": "2026-11-27 06:44:52.430 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 139,
+      "text": "2026-11-27 06:44:52.431 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 141,
+      "text": "2026-11-27 06:44:52.432 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 143,
+      "text": "2026-11-27 06:44:52.432 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 145,
+      "text": "2026-11-27 06:44:52.433 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 147,
+      "text": "2026-11-27 06:44:52.433 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 149,
+      "text": "2026-11-27 06:44:52.434 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 151,
+      "text": "2026-11-27 06:44:52.435 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 153,
+      "text": "2026-11-27 06:44:52.435 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 155,
+      "text": "2026-11-27 06:44:52.436 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 157,
+      "text": "2026-11-27 06:44:52.437 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 159,
+      "text": "2026-11-27 06:44:52.437 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 161,
+      "text": "2026-11-27 06:44:52.438 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 163,
+      "text": "2026-11-27 06:44:52.438 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 165,
+      "text": "2026-11-27 06:44:52.439 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 167,
+      "text": "2026-11-27 06:44:52.440 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 169,
+      "text": "2026-11-27 06:44:52.440 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 171,
+      "text": "2026-11-27 06:44:52.441 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 173,
+      "text": "2026-11-27 06:44:52.442 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 175,
+      "text": "2026-11-27 06:44:52.442 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 177,
+      "text": "2026-11-27 06:44:52.443 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 179,
+      "text": "2026-11-27 06:44:52.444 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 181,
+      "text": "2026-11-27 06:44:52.445 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 183,
+      "text": "2026-11-27 06:44:52.445 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 185,
+      "text": "2026-11-27 06:44:52.446 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 187,
+      "text": "2026-11-27 06:44:52.446 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 189,
+      "text": "2026-11-27 06:44:52.447 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 191,
+      "text": "2026-11-27 06:44:52.448 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 193,
+      "text": "2026-11-27 06:44:52.448 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 195,
+      "text": "2026-11-27 06:44:52.449 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 197,
+      "text": "2026-11-27 06:44:52.450 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 199,
+      "text": "2026-11-27 06:44:52.450 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 201,
+      "text": "2026-11-27 06:44:52.451 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 203,
+      "text": "2026-11-27 06:44:52.452 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 205,
+      "text": "2026-11-27 06:44:52.452 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 207,
+      "text": "2026-11-27 06:44:52.453 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 209,
+      "text": "2026-11-27 06:44:52.454 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 211,
+      "text": "2026-11-27 06:44:52.454 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 213,
+      "text": "2026-11-27 06:44:52.455 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 215,
+      "text": "2026-11-27 06:44:52.456 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 217,
+      "text": "2026-11-27 06:44:52.456 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 219,
+      "text": "2026-11-27 06:44:52.457 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 221,
+      "text": "2026-11-27 06:44:52.458 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 223,
+      "text": "2026-11-27 06:44:52.458 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 225,
+      "text": "2026-11-27 06:44:52.459 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 227,
+      "text": "2026-11-27 06:44:52.460 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 229,
+      "text": "2026-11-27 06:44:52.460 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 231,
+      "text": "2026-11-27 06:44:52.461 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 233,
+      "text": "2026-11-27 06:44:52.462 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 235,
+      "text": "2026-11-27 06:44:52.462 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 237,
+      "text": "2026-11-27 06:44:52.463 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 239,
+      "text": "2026-11-27 06:44:52.464 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 247,
+      "text": "2026-11-27 06:44:52.464 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 249,
+      "text": "2026-11-27 06:44:52.465 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 251,
+      "text": "2026-11-27 06:44:52.465 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 253,
+      "text": "2026-11-27 06:44:52.466 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 255,
+      "text": "2026-11-27 06:44:52.467 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 257,
+      "text": "2026-11-27 06:44:52.468 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 259,
+      "text": "2026-11-27 06:44:52.468 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 261,
+      "text": "2026-11-27 06:44:52.469 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 263,
+      "text": "2026-11-27 06:44:52.470 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 265,
+      "text": "2026-11-27 06:44:52.471 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 267,
+      "text": "2026-11-27 06:44:52.471 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 269,
+      "text": "2026-11-27 06:44:52.472 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 271,
+      "text": "2026-11-27 06:44:52.473 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 273,
+      "text": "2026-11-27 06:44:52.473 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 275,
+      "text": "2026-11-27 06:44:52.474 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 277,
+      "text": "2026-11-27 06:44:52.475 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 279,
+      "text": "2026-11-27 06:44:52.475 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 281,
+      "text": "2026-11-27 06:44:52.476 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 283,
+      "text": "2026-11-27 06:44:52.476 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 286,
+      "text": "2026-11-27 06:44:52.477 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 288,
+      "text": "2026-11-27 06:44:52.478 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 290,
+      "text": "2026-11-27 06:44:52.478 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 292,
+      "text": "2026-11-27 06:44:52.479 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 294,
+      "text": "2026-11-27 06:44:52.480 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 296,
+      "text": "2026-11-27 06:44:52.480 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 298,
+      "text": "2026-11-27 06:44:52.481 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 300,
+      "text": "2026-11-27 06:44:52.481 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 302,
+      "text": "2026-11-27 06:44:52.482 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 304,
+      "text": "2026-11-27 06:44:52.483 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 306,
+      "text": "2026-11-27 06:44:52.483 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 308,
+      "text": "2026-11-27 06:44:52.484 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 310,
+      "text": "2026-11-27 06:44:52.484 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM STOP\" in transaction 670"
+    },
+    {
+      "line": 316,
+      "text": "2026-11-27 06:44:53.057 UTC logical replication parallel worker[59459] DEBUG:  finished processing the STREAM ABORT command"
+    },
+    {
+      "line": 317,
+      "text": "2026-11-27 06:44:53.057 UTC logical replication parallel worker[59459] CONTEXT:  processing remote data for replication origin \"pg_16409\" during message type \"STREAM ABORT\" in transaction 670, finished at 0/01D47490"
+    }
+  ],
+  "suspended-stream-final": [
+    {
+      "line": 159,
+      "text": "2026-11-27 06:44:52.952 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 161,
+      "text": "2026-11-27 06:44:52.952 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 163,
+      "text": "2026-11-27 06:44:52.952 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 165,
+      "text": "2026-11-27 06:44:52.952 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 167,
+      "text": "2026-11-27 06:44:52.953 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 169,
+      "text": "2026-11-27 06:44:52.953 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 171,
+      "text": "2026-11-27 06:44:52.953 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 173,
+      "text": "2026-11-27 06:44:52.953 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 175,
+      "text": "2026-11-27 06:44:52.954 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 177,
+      "text": "2026-11-27 06:44:52.954 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 179,
+      "text": "2026-11-27 06:44:52.954 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 181,
+      "text": "2026-11-27 06:44:52.955 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 183,
+      "text": "2026-11-27 06:44:52.955 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 185,
+      "text": "2026-11-27 06:44:52.955 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 187,
+      "text": "2026-11-27 06:44:52.955 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 189,
+      "text": "2026-11-27 06:44:52.956 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 191,
+      "text": "2026-11-27 06:44:52.956 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 193,
+      "text": "2026-11-27 06:44:52.956 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 195,
+      "text": "2026-11-27 06:44:52.956 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 197,
+      "text": "2026-11-27 06:44:52.957 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 199,
+      "text": "2026-11-27 06:44:52.957 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 201,
+      "text": "2026-11-27 06:44:52.957 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 203,
+      "text": "2026-11-27 06:44:52.957 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 205,
+      "text": "2026-11-27 06:44:52.957 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 207,
+      "text": "2026-11-27 06:44:52.958 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 209,
+      "text": "2026-11-27 06:44:52.958 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 211,
+      "text": "2026-11-27 06:44:52.958 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 213,
+      "text": "2026-11-27 06:44:52.958 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 215,
+      "text": "2026-11-27 06:44:52.959 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 217,
+      "text": "2026-11-27 06:44:52.959 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 219,
+      "text": "2026-11-27 06:44:52.959 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 221,
+      "text": "2026-11-27 06:44:52.960 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 223,
+      "text": "2026-11-27 06:44:52.960 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 225,
+      "text": "2026-11-27 06:44:52.960 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 227,
+      "text": "2026-11-27 06:44:52.960 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 229,
+      "text": "2026-11-27 06:44:52.961 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 231,
+      "text": "2026-11-27 06:44:52.961 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 233,
+      "text": "2026-11-27 06:44:52.961 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 235,
+      "text": "2026-11-27 06:44:52.961 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 237,
+      "text": "2026-11-27 06:44:52.962 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 239,
+      "text": "2026-11-27 06:44:52.962 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 241,
+      "text": "2026-11-27 06:44:52.962 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 243,
+      "text": "2026-11-27 06:44:52.962 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 245,
+      "text": "2026-11-27 06:44:52.963 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 247,
+      "text": "2026-11-27 06:44:52.963 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 249,
+      "text": "2026-11-27 06:44:52.964 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 251,
+      "text": "2026-11-27 06:44:52.964 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 253,
+      "text": "2026-11-27 06:44:52.964 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 255,
+      "text": "2026-11-27 06:44:52.965 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 257,
+      "text": "2026-11-27 06:44:52.965 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 259,
+      "text": "2026-11-27 06:44:52.965 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 261,
+      "text": "2026-11-27 06:44:52.965 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 263,
+      "text": "2026-11-27 06:44:52.965 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 265,
+      "text": "2026-11-27 06:44:52.966 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 267,
+      "text": "2026-11-27 06:44:52.966 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 269,
+      "text": "2026-11-27 06:44:52.966 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 271,
+      "text": "2026-11-27 06:44:52.966 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 273,
+      "text": "2026-11-27 06:44:52.967 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 275,
+      "text": "2026-11-27 06:44:52.967 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 277,
+      "text": "2026-11-27 06:44:52.967 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 279,
+      "text": "2026-11-27 06:44:52.967 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 281,
+      "text": "2026-11-27 06:44:52.968 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 283,
+      "text": "2026-11-27 06:44:52.968 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 285,
+      "text": "2026-11-27 06:44:52.968 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 287,
+      "text": "2026-11-27 06:44:52.968 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 289,
+      "text": "2026-11-27 06:44:52.968 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 291,
+      "text": "2026-11-27 06:44:52.969 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 293,
+      "text": "2026-11-27 06:44:52.969 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 295,
+      "text": "2026-11-27 06:44:52.969 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 297,
+      "text": "2026-11-27 06:44:52.969 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 299,
+      "text": "2026-11-27 06:44:52.970 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 301,
+      "text": "2026-11-27 06:44:52.970 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 303,
+      "text": "2026-11-27 06:44:52.970 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 305,
+      "text": "2026-11-27 06:44:52.971 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 307,
+      "text": "2026-11-27 06:44:52.971 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 309,
+      "text": "2026-11-27 06:44:52.971 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 311,
+      "text": "2026-11-27 06:44:52.971 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 313,
+      "text": "2026-11-27 06:44:52.972 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 315,
+      "text": "2026-11-27 06:44:52.972 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 317,
+      "text": "2026-11-27 06:44:52.972 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 319,
+      "text": "2026-11-27 06:44:52.972 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 321,
+      "text": "2026-11-27 06:44:52.973 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 323,
+      "text": "2026-11-27 06:44:52.973 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM START\" in transaction 671"
+    },
+    {
+      "line": 325,
+      "text": "2026-11-27 06:44:52.973 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 329,
+      "text": "2026-11-27 06:44:52.976 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 331,
+      "text": "2026-11-27 06:44:52.980 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 333,
+      "text": "2026-11-27 06:44:52.983 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 335,
+      "text": "2026-11-27 06:44:52.986 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 337,
+      "text": "2026-11-27 06:44:52.990 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 339,
+      "text": "2026-11-27 06:44:52.993 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 341,
+      "text": "2026-11-27 06:44:52.996 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 343,
+      "text": "2026-11-27 06:44:53.000 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 345,
+      "text": "2026-11-27 06:44:53.003 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 347,
+      "text": "2026-11-27 06:44:53.007 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 350,
+      "text": "2026-11-27 06:44:53.007 UTC logical replication apply worker[59401] LOG:  conflict detected on relation \"public.target\": conflict=update_missing"
+    },
+    {
+      "line": 354,
+      "text": "2026-11-27 06:44:53.007 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 356,
+      "text": "2026-11-27 06:44:53.007 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 371,
+      "text": "2026-11-27 06:44:53.104 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    },
+    {
+      "line": 372,
+      "text": "2026-11-27 06:44:53.105 UTC logical replication apply worker[59401] DEBUG:  finished processing the STREAM COMMIT command"
+    },
+    {
+      "line": 373,
+      "text": "2026-11-27 06:44:53.105 UTC logical replication apply worker[59401] CONTEXT:  processing remote data for replication origin \"pg_16405\" during message type \"STREAM COMMIT\" in transaction 671, finished at 0/01CD1930"
+    }
+  ]
+}
